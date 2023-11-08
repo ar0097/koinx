@@ -1,0 +1,16 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 881px;
+  height: 879px;
+  padding: 35px, 73px, 58px, 79px;
+  border-radius: 16px;
+}

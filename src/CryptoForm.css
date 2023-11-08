@@ -1,0 +1,128 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.crypto__form {
+    width: 60%;
+    margin: 50px 0 50px 100px;
+    padding: 20px 80px;
+    border-radius: 10px;
+    background-color: white !important;
+    box-shadow: 0px 0px 12px rgba(16.16, 37.79, 73.31, 0.06);
+}
+
+
+.crypto__form h1 {
+    text-align: center;
+}
+
+.current__year, .country__name {
+    background-color: #f7f4f4;
+    width: 200px;
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+input {
+    border: none;
+    outline: none;
+    background-color: #f7f4f4;
+    width: 100%;
+}
+
+.purchase__amount, .sale__amount, .expenses__amount{
+    background-color: #f7f4f4;
+    width: 300px;
+    display: flex;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin-top: 5px;
+    border: none;
+}
+
+.short, .long {
+    background-color: #f7f4f4;
+    width: 140px;
+    display: flex;
+    border-radius: 5px;
+    padding: 8px 10px;
+    margin-top: 5px;
+    border: none;
+}
+
+span {
+    font-size: 15px;
+}
+
+.greater__than {
+    margin-left: 10px;
+}
+
+.less__than {
+    margin-right: 10px;
+}
+
+.tax__rate{
+    width: 300px;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.tax__amount, .tax__payment{
+    background-color: #f7f4f4;
+    width: 300px;
+    border-radius: 5px;
+    padding: 8px 10px;
+    margin-top: 20px;
+    border: none;
+    text-align: center;
+}
+
+.second__card {
+    width: 30%;
+    margin-top: 50px;
+}
+
+.second__card img {
+    width: 80%;
+}
+
+@media (max-width: 768px) {
+    .crypto__form {
+        width: 90%; 
+        margin: 10px auto; 
+        padding: 20px 20px; 
+    }
+    .first__card {
+        display: flex;
+    }
+    .year, .country {
+        display: flex;
+        flex-direction: column;
+    }
+    .common__column {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .crypto__form h1 {
+        font-size: 24px;
+    }
+
+    .current__year, .country__name, .purchase__amount, .sale__amount, .expenses__amount, .short, .long {
+        width: 100%; 
+        margin: 5px 0;
+    }
+
+    .tax__rate, .tax__amount, .tax__payment {
+        width: 100%; 
+    }
+
+    .second__card {
+        display: none; 
+    }
+}
